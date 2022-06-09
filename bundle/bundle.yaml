@@ -1,5 +1,5 @@
 apiVersion: "1"
-version: "3"
+version: "4"
 id: "yolo-dev-ops-controller"
 description: "CloudBees CI configuration bundle for the yolo-dev ops-controller Controller"
 availabilityPattern: "cloudbees-ci-casc-workshop/yolo-dev/ops-controller"
@@ -9,5 +9,3 @@ plugins:
   - "plugins.yaml"
 items:
   - "items.yaml"
-catalog:
-  - "plugin-catalog.yaml"
